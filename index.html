@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shravani - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Shravani</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my journey, projects, and services</p>
+            <button class="btn" id="cta-btn">Get Started</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-preview">
+            <div class="container">
+                <h2>Quick Introduction</h2>
+                <p>I am a passionate web developer and designer with expertise in HTML, CSS, and JavaScript. This portfolio showcases my skills and projects.</p>
+                <a href="about.html" class="btn-secondary">Learn More</a>
+            </div>
+        </section>
+
+        <section class="featured-projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Project One</h3>
+                        <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Project Two</h3>
+                        <p>An interactive web application with form validation and modals.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3>Project Three</h3>
+                        <p>A mobile-responsive design showcasing modern CSS techniques.</p>
+                    </article>
+                </div>
+                <a href="projects.html" class="btn-secondary">View All Projects</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Shravani. All rights reserved.</p>
+            <p>Designed and built with ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <h2>Welcome!</h2>
+            <p>Thank you for visiting my portfolio. Explore my work and feel free to contact me for any inquiries.</p>
+            <button class="btn" id="modal-close-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
